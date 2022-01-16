@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Joy Kites";
+const description = "When I was a kid I love to play with kites, I hope you do the same too, but unfortunately, now we lost the joy and feelings of kiting. that's why the JOY KITES collection was created for the sole purpose of spreading happiness. and the funds which we will get from this collection will be used to build a decentralized freelance Marketplace called cryptolancer.in which will help you to hire a freelance talent and pay in crypto on L2 solutions.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  symbol: "JOY",
+  seller_fee_basis_points: 2500, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x0DB63C9613b3BECf644A298AfECBa450795f612B",
       share: 100,
     },
   ],
@@ -24,26 +24,24 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Place" },
+      { name: "Kite" },
+      { name: "Human" },
+      { name: "Tech" },
     ],
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1200,
+  height: 1200,
   smoothing: false,
 };
 
