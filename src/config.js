@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Joy Kites";
 const description = "When I was a kid I love to play with kites, I hope you do the same too, but unfortunately, now we lost the joy and feelings of kiting. that's why the JOY KITES collection was created for the sole purpose of spreading happiness. and the funds which we will get from this collection will be used to build a decentralized freelance Marketplace called cryptolancer.in which will help you to hire a freelance talent and pay in crypto on L2 solutions.";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmZMBfktxHr9a2v8dvhq8hXn7WT1t49DybkJQjPKH7JwF5";
 
 const solanaMetadata = {
   symbol: "JOY",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 3000,
     layersOrder: [
       { name: "Background" },
       { name: "Place" },
@@ -83,18 +83,18 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 100,
+  thumbWidth: 100,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 100,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
-  delay: 500,
+  delay: 150,
   imageName: "preview.gif",
 };
 

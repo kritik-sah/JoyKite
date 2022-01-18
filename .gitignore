@@ -49,6 +49,7 @@ build/Release
 
 # Dependency directories
 
+site/
 build/
 dist/
 node_modules/
