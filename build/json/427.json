@@ -1,0 +1,31 @@
+{
+  "name": "Joy Kites #427",
+  "description": "When I was a kid I love to play with kites, I hope you do the same too, but unfortunately, now we lost the joy and feelings of kiting. that's why the JOY KITES collection was created for the sole purpose of spreading happiness. and the funds which we will get from this collection will be used to build a decentralized freelance Marketplace called cryptolancer.in which will help you to hire a freelance talent and pay in crypto on L2 solutions.",
+  "image": "ipfs://QmZMBfktxHr9a2v8dvhq8hXn7WT1t49DybkJQjPKH7JwF5/427.png",
+  "dna": "ccbb62c3a19f8a1a0f99c9e3c067fb2d36df264d",
+  "edition": 427,
+  "date": 1642362146451,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sunnyday"
+    },
+    {
+      "trait_type": "Place",
+      "value": "belguim"
+    },
+    {
+      "trait_type": "Kite",
+      "value": "fish"
+    },
+    {
+      "trait_type": "Human",
+      "value": "brown_enjoying"
+    },
+    {
+      "trait_type": "Tech",
+      "value": "waves"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
